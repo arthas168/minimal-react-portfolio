@@ -12,14 +12,14 @@ export default function Experience() {
                     In my spare time I enjoy reading history books or working on personal coding side projects. Big supporter of open source software and an avid fan of Linux (currently on Manjaro).
                 </span>
             } />
-            <Card title="👨‍💻 Work Experience" content={
+            <Card longMobile={true} title="👨‍💻 Work Experience" content={
                 <div className="workplace_list">
                     <div className="workplaces">
                         <span className="workplace_title">
                             Full Stack Developer - <span className="co_name">TechPods</span> (Mar 2020 - Now)
                         </span>
                         <span className="workplace_description">
-                            TechPods is a one of a king co-sourcing company. I am in the team that works for our biggest and most valuable client - OVO Energy, one of the main
+                            TechPods is a one of a kind co-sourcing company. I am in the team that works for our biggest and most valuable client - OVO Energy, one of the main
                             energy supplying companies in the UK. The day to day work involves maintaining and improving a microservices based Kotlin backend with a Postgres database,
                             a Flutter mobile app for scheduling engineer appointments, and a React frontend. Other technologies used: AWS, Docker, GraphQL, TypeScript, Quarkus, Gradle.
                         </span>
