@@ -92,7 +92,7 @@ body {
           justify-content: center;
           align-items: center;
           .workplace_title {
-            margin-top: 10px;
+            margin-top: 7.5px;
             font-weight: bold;
             font-family: "Montserrat";
             font-size: 12px;
@@ -135,7 +135,7 @@ body {
         padding-right: 20px;
         padding-top: 10px;
         font-family: "Open sans";
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   }
@@ -386,201 +386,6 @@ a {
   top: -20rem;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 2px;
-  }
-  /* Header */
-
-  .header_container {
-    width: 80vw;
-    top: 2rem;
-  }
-
-  .header_container h1 {
-    font-size: 1rem;
-  }
-
-  .header_container ul li {
-    padding-right: 1rem;
-  }
-
-  /* Home */
-
-  .home_container_top {
-    top: 6rem;
-  }
-
-  .home_container_top .home_head_wrapper {
-    top: 1.5rem;
-    width: 60vw;
-  }
-
-  .home_container_top .home_head_wrapper h1 {
-    font-size: 2rem;
-  }
-
-  .home_container_top .home_head_wrapper p {
-    top: 0rem;
-    font-size: 0.7rem;
-  }
-
-  .home_container_top .image_container img {
-    height: 10rem;
-    width: 8rem;
-    top: 1.5rem;
-  }
-
-  /* Work */
-  .work_container {
-    top: 10rem;
-    width: 80vw;
-  }
-
-  .work_container h1 {
-    font-size: 2rem;
-  }
-
-  .work_container .projects_container {
-    grid-gap: 0.2rem;
-  }
-
-  .work_container .projects_container img {
-    height: 8rem;
-    width: 8rem;
-  }
-
-  .work_container .projects_container .title {
-    font-size: 0.8rem;
-  }
-
-  /* Contact */
-
-  .contact {
-    top: 10rem;
-  }
-
-  .contact h1 {
-    font-size: 4rem;
-  }
-
-  .contact p {
-    font-size: 0.6rem;
-    top: -1rem;
-  }
-
-  .contact .email_link {
-    font-size: 1rem;
-    top: 0rem;
-  }
-
-  .contact li {
-    padding-right: 1rem;
-  }
-
-  .contact li a {
-    font-size: 0.5rem;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 800px) {
-  body {
-    font-size: 2px;
-  }
-
-  /* Header */
-
-  .header_container {
-    width: 80vw;
-    top: 2rem;
-  }
-
-  .header_container h1 {
-    font-size: 1rem;
-  }
-
-  .header_container ul li {
-    padding-right: 1rem;
-  }
-
-  /* Home */
-
-  .home_container_top {
-    top: 6rem;
-  }
-
-  .home_container_top .home_head_wrapper {
-    top: 1.5rem;
-    width: 60vw;
-  }
-
-  .home_container_top .home_head_wrapper h1 {
-    font-size: 1.2rem;
-  }
-
-  .home_container_top .home_head_wrapper p {
-    top: 0rem;
-    font-size: 0.7rem;
-  }
-
-  .home_container_top .image_container img {
-    height: 10rem;
-    width: 8rem;
-    top: 2rem;
-  }
-
-  /* Work */
-  .work_container {
-    top: 10rem;
-    width: 80vw;
-  }
-
-  .work_container h1 {
-    font-size: 2rem;
-  }
-
-  .work_container .projects_container {
-    grid-gap: 0.2rem;
-  }
-
-  .work_container .projects_container img {
-    height: 8rem;
-    width: 8rem;
-  }
-
-  .work_container .projects_container .title {
-    font-size: 0.8rem;
-  }
-
-  /* Contact */
-
-  .contact {
-    top: 10rem;
-  }
-
-  .contact h1 {
-    font-size: 4rem;
-  }
-
-  .contact p {
-    font-size: 0.6rem;
-    top: -1rem;
-  }
-
-  .contact .email_link {
-    font-size: 1rem;
-    top: 0rem;
-  }
-
-  .contact li {
-    padding-right: 1rem;
-  }
-
-  .contact li a {
-    font-size: 0.5rem;
-  }
-}
-
 .shake-horizontal {
   -webkit-animation: shake-horizontal 10s
     cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
@@ -665,5 +470,57 @@ a {
     color: black !important;
     font-family: "Montserrat";
     margin: 5px 0 5px 0;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  body {
+    background: #1e1e1e;
+
+    .skills {
+      margin-left: 0 !important;
+    }
+
+    overflow: auto;
+    .home_container_top {
+      .home_head_wrapper {
+        align-items: center;
+        width: 100%;
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          .typed_text span {
+            font-size: 1rem !important;
+          }
+        }
+      }
+
+      flex-direction: column;
+      position: relative;
+      top: 72rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image_container {
+      margin-top: -3rem;
+      margin-bottom: 7rem;
+      img {
+        width: 7rem !important;
+        height: 7.1rem !important;
+      }
+    }
+
+    .experience {
+      padding-top: 75rem !important;
+      flex-direction: column;
+      align-items: center;
+
+      .card {
+        margin-bottom: 2rem;
+      }
+    }
   }
 }
