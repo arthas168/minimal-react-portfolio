@@ -30,9 +30,8 @@ export default function Skills() {
                 <h1>Want to learn: </h1>
                 <div className="tag_list">
                     <Tag name="Rust" text="⚙️ I'm really keen on learning Rust and utilizing it for embedded software development and getting into efficient low-level programming as a whole." />
-                    <Tag name="Elixir" text="🧪 Elixir seems like a really fun to use language and I'd like to learn it to build distributed and fault-tolerant applications." />
-                    <Tag name="Ruby" isLast={true} text="💎 Ruby seems like a really fun to use language and I'd like to learn it alongside the Rails framework, to build all kinds of applications." />
-
+                    <Tag name="Ruby" text="💎 Ruby seems like a really fun to use language and I'd like to learn it alongside the Rails framework, to build all kinds of applications." />
+                    <Tag name="Elixir" isLast={true} text="🧪 Elixir seems like a really fun to use language and I'd like to learn it to build distributed and fault-tolerant applications." />
                 </div>
             </div>
         </>
