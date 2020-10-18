@@ -67,9 +67,11 @@ a{
 .home_container_top{
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
   position: relative;
   top: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .home_container_top .home_head_wrapper{
