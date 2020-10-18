@@ -1,20 +1,21 @@
 import React from 'react';
-import Home from './home';
+import Header from './Header';
+import Experience from "./Experience"
+import Contact from "./Contact"
 
 import data from './yourdata';
 
 const Landing = () => {
     return (
         <div className="App">
-            <Home name={
-                    data.landingPageName
-                }
-                paragraph={
-                    data.landingPagePara
-                }
+            <Contact socialLinks={data.social} contactEmail={data.contactEmail}/>
+            <Header name={
+                data.landingPageName
+            }
                 authorImage={
                     data.landingPageImage
-                }/>
+                } />
+            <Experience />
 
         </div>
     )

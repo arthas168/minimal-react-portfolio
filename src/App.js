@@ -7,7 +7,7 @@ function App() {
     return (
         <>
             <Particles />
-            <Landing/>
+            <Landing />
         </>
     )
 }
