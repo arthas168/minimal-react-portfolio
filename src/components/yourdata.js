@@ -18,7 +18,7 @@ export default {
     // Add Or Remove The Link Accordingly
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/%F0%9F%A6%A6-petko-pete-pavlovski-07486a156/"
+      url: "https://www.linkedin.com/in/petko-pete-pavlovski-07486a156/"
     },
     {
       name: "Github",
