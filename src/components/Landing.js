@@ -3,7 +3,7 @@ import Header from './Header';
 import Experience from "./Experience"
 import Contact from "./Contact"
 
-import data from './yourdata';
+import data from './Data';
 
 const Landing = () => {
     return (
