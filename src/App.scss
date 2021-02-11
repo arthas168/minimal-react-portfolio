@@ -219,8 +219,8 @@ a {
 
         margin-right: 20px !important;
 
-        &.last_item {
-          margin-right: 0;
+        &.is_last {
+          margin-right: 0 !important;
         }
 
         position: relative;
@@ -498,12 +498,8 @@ a {
         .tag {
           margin-right: 20px !important;
 
-          &.last_item {
+          &.is_last {
             margin-right: 0 !important;
-          }
-
-          &.first_item {
-            margin-left: 20px !important;
           }
         }
       }
