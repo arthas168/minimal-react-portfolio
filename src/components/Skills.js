@@ -10,8 +10,8 @@ export default function Skills() {
                 <div className="tag_list">
                     <Tag name="Kotlin" position={'is_first'} text="👨‍💻 I've been utilizing Kotlin (alongside Gradle and Quarkus) with a Postgres database on a daily basis for the past 7 months to build secure, reliable & 
                     fast backend microservices."/>
-                    <Tag name="Flutter" text="🐦 For the past 5 months I've been using Flutter on a daily basis to build fast, dynamic & interactive mobile UIs for both iOS and Android. I also have a few personal
-                    projects in progress with Flutter which you can find on my GitHub repo page."/>
+                    <Tag name="Flutter" text="🐦 For the past 5 months I've been using Flutter everyday to build fast, dynamic & interactive mobile UIs for both iOS and Android. I also have a few personal
+                    projects in progress with Flutter which you can find on my GitHub page."/>
                     <Tag data-tip="js" position={'is_last'} name="JavaScript" text="👨‍💻 I've been using JavaScript both for personal and professional projects ever since 2018.
                     I've worked with TypeScript and Nodejs (with Express and MongoDB). I've also used React and React Native."/>
                 </div>
