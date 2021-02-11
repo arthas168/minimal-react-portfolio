@@ -21,7 +21,7 @@ export default function Skills() {
                     <Tag name="Java" text="☕ Java is my first programming language! 
                     During my time in the Software University I studied the basics, fundamentals, and advanced concepts of programming and OOP principles with Java. I haven't used it professionally
                     since, but at work I use Kotlin daily, so I feel pretty comfortable with the JVM ecosystem. I've also used Spring, Maven and Hibernate with MySQL."/>
-                    <Tag name="Python" position={'is_last'} text="🐍 I haven't used Python professionally yet, but I've built several personal projects (some of which are on my GitHub repo page).
+                    <Tag name="Python" position={'is_last'} text="🐍 I haven't used Python professionally yet, but I've built several personal projects (some of which are on my GitHub page).
                     Python is my go-to language for writing small scripts and also learning cybersecurity and ethical hacking. I really want to start using the Django framework for web development."/>
 
                 </div>
