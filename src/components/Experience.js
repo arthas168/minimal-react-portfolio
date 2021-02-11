@@ -37,9 +37,9 @@ export default function Experience() {
                         Software University, Sofia (Jun 2017 - Mar 2020)
                     </span>
                     <span className="education_text">
-                        Throughout the courses at SoftUni I learned the fundamentals of programming - at first, with Java and C#,
-                        along with everything needed to build full stack web applications with JavaScript. I also studied Blockchain technologies, which includes creating decentralized applications with the solidity language on the Ethereum network, and much more.
-                        Most of my educational projects can be found in my GitHub repo.
+                        Throughout the courses at SoftUni I studied the fundamentals of programming with Java and C#,
+                        along with everything needed to build full stack web applications with JavaScript. I also studied Blockchain technologies and created decentralized applications with the Solidity programming language on the Ethereum network.
+                        Most of my educational projects can be found on my GitHub page.
                     </span>
                 </div>
             }
