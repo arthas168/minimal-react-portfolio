@@ -95,12 +95,12 @@ body {
             margin-top: 7.5px;
             font-weight: bold;
             font-family: "Montserrat";
-            font-size: 12px;
+            font-size: 13px;
           }
           .workplace_description {
             margin-top: 5px;
             font-family: "Open sans";
-            font-size: 10.5px;
+            font-size: 13px;
           }
         }
       }
@@ -116,7 +116,7 @@ body {
           padding-right: 20px;
           padding-top: 10px;
           font-family: "Open sans";
-          font-size: 12px;
+          font-size: 13px;
           font-weight: bold;
           font-family: "Montserrat";
         }
@@ -126,7 +126,7 @@ body {
           padding-right: 20px;
           padding-top: 10px;
           font-family: "Open sans";
-          font-size: 12px;
+          font-size: 13px;
         }
       }
 
@@ -135,7 +135,7 @@ body {
         padding-right: 20px;
         padding-top: 10px;
         font-family: "Open sans";
-        font-size: 14px;
+        font-size: 13px;
       }
     }
   }
@@ -217,7 +217,7 @@ a {
           cursor: pointer;
         }
 
-        margin-right: 20px;
+        margin-right: 20px !important;
 
         &.last_item {
           margin-right: 0;
@@ -496,10 +496,14 @@ a {
         margin-left: 0;
         margin-right: 0;
         .tag {
-          margin-right: 10px !important;
+          margin-right: 20px !important;
 
           &.last_item {
             margin-right: 0 !important;
+          }
+
+          &.first_item {
+            margin-left: 20px !important;
           }
         }
       }

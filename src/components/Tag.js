@@ -6,7 +6,7 @@ import 'reactjs-popup/dist/index.css';
 export default function Tag({ name, text, isFirst, isLast }) {
 
     return <Popup trigger={
-        <div className={`tag ${isLast && "last_item"}`}>
+        <div className={`tag ${isLast && "last_item"} ${isFirst && "first_item"}`}>
             <p>{name}</p>
             {isFirst && <img className="shake-horizontal" src="../assets/push.png" alt="info-button"></img>}
         </div>
