@@ -7,7 +7,7 @@ export default function Experience() {
             <Card title="🙋‍♂️ whoami" content={
                 <span className="whoami">
                     Passionate blockchain advocate. Long history of organising and working with people.
-                    My hobbies include magic tricks with playing cards, Cardistry, cooking and hiking.
+                    My hobbies include magic tricks with playing cards, cardistry, cooking and hiking.
                     I also recently bought an Arduino and a Raspberry Pi and have started looking into electronics, embedded software and IoT.
                     In my spare time I enjoy reading history books and working on side projects. Big supporter of open source software and an avid fan of Linux (currently on Manjaro).
                 </span>
