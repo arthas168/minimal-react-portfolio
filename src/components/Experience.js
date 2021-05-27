@@ -16,17 +16,22 @@ export default function Experience() {
                 <div className="workplace_list">
                     <div className="workplaces">
                         <span className="workplace_title">
-                            Full Stack Developer - <span className="co_name">TechPods</span> (Mar 2020 - Now)
+                            Rust Developer - <span className="co_name">LimeChain</span> (Jan 2021 - Now)
                         </span>
                         <span className="workplace_description">
-                           Maintaining and improving a microservices based Kotlin backend with a Postgres database,
-                            a Flutter mobile app, and a React frontend for scheduling and executing appointments. Other technologies used: AWS, Docker, GraphQL, TypeScript, Quarkus, Gradle.
+                            Rust, AssemblyScript, WebAssembly.
                         </span>
                         <span className="workplace_title">
-                            Blockchain Developer - <span className="co_name">WeiChain</span> (Jan 2019 - Mar 2020)
+                            Full Stack Developer - <span className="co_name">TechPods</span> (Nov 2019 - Jan 2021)
                         </span>
                         <span className="workplace_description">
-                            Writing smart contracts on the Ethereum and Aeternity blockchains, building web applications with React.
+                           Kotlin, Flutter, React, AWS, Docker, GraphQL, TypeScript, Quarkus, Gradle.
+                        </span>
+                        <span className="workplace_title">
+                            Blockchain Developer - <span className="co_name">WeiChain</span> (Jan 2019 - Nov 2019)
+                        </span>
+                        <span className="workplace_description">
+                            React, Node.js, Solidity.
                         </span>
                     </div>
                 </div>

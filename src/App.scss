@@ -92,7 +92,7 @@ body {
           justify-content: center;
           align-items: center;
           .workplace_title {
-            margin-top: 7.5px;
+            margin-top: 15px;
             font-weight: bold;
             font-family: "Montserrat";
             font-size: 13px;
@@ -100,7 +100,9 @@ body {
           .workplace_description {
             margin-top: 5px;
             font-family: "Open sans";
+            text-align: left;
             font-size: 13px;
+            width: 100%;
           }
         }
       }
