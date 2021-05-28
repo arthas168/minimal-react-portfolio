@@ -16,19 +16,19 @@ export default function Experience() {
                 <div className="workplace_list">
                     <div className="workplaces">
                         <span className="workplace_title">
-                            Rust Developer - <span className="co_name">LimeChain</span> (Jan 2021 - Now)
+                            Rust Developer - <span className="co_name">LimeChain</span> (Mar 2021 - Now)
                         </span>
                         <span className="workplace_description">
                             Rust, AssemblyScript, WebAssembly.
                         </span>
                         <span className="workplace_title">
-                            Full Stack Developer - <span className="co_name">TechPods</span> (Nov 2019 - Jan 2021)
+                            Full Stack Developer - <span className="co_name">TechPods</span> (Jan 2020 - Mar 2021)
                         </span>
                         <span className="workplace_description">
                            Kotlin, Flutter, React, AWS, Docker, GraphQL, TypeScript, Quarkus, Gradle.
                         </span>
                         <span className="workplace_title">
-                            Blockchain Developer - <span className="co_name">WeiChain</span> (Jan 2019 - Nov 2019)
+                            Blockchain Developer - <span className="co_name">WeiChain</span> (Jan 2019 - Jan 2020)
                         </span>
                         <span className="workplace_description">
                             React, Node.js, Solidity.

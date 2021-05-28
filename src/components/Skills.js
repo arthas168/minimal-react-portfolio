@@ -17,7 +17,7 @@ export default function Skills() {
                 </div>
                 <h1>Good at: </h1>
                 <div className="tag_list">
-                    <Tag name="Rust" text="⚙️ Recently, I've fallen in love with Rust. Everything about it - memory safety, speed, portability, efficiency and syntax is just simply amazing. I've used Rust while working at LimeChain for 6 months to build a cutting edge unit testing framework, targeted specifically at testing WebAssembly modules.. I also have a bunch of neat side projects with Rust on my GitHub page." />
+                    <Tag name="Rust" text="⚙️ Recently, I've fallen in love with Rust. Everything about it - memory safety, speed, portability, efficiency and syntax is just simply amazing. I am using Rust at LimeChain for 3 months now to build a cutting edge unit testing framework, targeted specifically at testing WebAssembly modules.. I also have a bunch of neat side projects with Rust on my GitHub page." />
                     <Tag name="Java" text="☕ Java is my first programming language! 
                     During my time in the Software University I studied the basics, fundamentals, and advanced concepts of programming and OOP principles with Java. I haven't used it professionally
                     since, but at work I use Kotlin daily, so I feel pretty comfortable with the JVM ecosystem. I've also used Spring, Maven and Hibernate with MySQL."/>
