@@ -16,7 +16,7 @@ export default function Experience() {
                 <div className="workplace_list">
                     <div className="workplaces">
                     <span className="workplace_title">
-                            Founder & Rust Developer<br/><span className="co_name">Nixum</span> <span className="time">(Oct 2021 - Now)</span>
+                            Founder<br/><span className="co_name">Nixum</span> <span className="time">(Oct 2021 - Now)</span>
                         </span>
                         <span className="workplace_title">
                             Rust Developer<br/><span className="co_name">LimeChain</span> <span className="time">(Mar 2021 - Now)</span>
