@@ -26,9 +26,9 @@ const Header = ({ name, authorImage }) => {
                 <div className="image_container bounce-in-top">
                     <img src={authorImage} alt="Author">
                     </img>
-                    <div className="bg"> </div>
+                    <div className="bg"></div>
                 </div>
-                <Skills />
+                <Skills/>
             </div>
         </div>
     );

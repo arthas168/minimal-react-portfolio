@@ -12,10 +12,10 @@ const Landing = () => {
             <Header name={
                 data.landingPageName
             }
-                authorImage={
-                    data.landingPageImage
-                } />
-            <Experience />
+                    authorImage={
+                        data.landingPageImage
+                    }/>
+            <Experience/>
 
         </div>
     )
