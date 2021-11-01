@@ -16,16 +16,16 @@ export default function Experience() {
                 <div className="workplace_list">
                     <div className="workplaces">
                     <span className="workplace_title">
-                            Founder & Rust Developer<br/><span className="co_name">Nixum</span> (Oct 2021 - Now)
+                            Founder & Rust Developer<br/><span className="co_name">Nixum</span> <span className="time">(Oct 2021 - Now)</span>
                         </span>
                         <span className="workplace_title">
-                            Rust Developer<br/><span className="co_name">LimeChain</span> (Mar 2021 - Now)
+                            Rust Developer<br/><span className="co_name">LimeChain</span> <span className="time">(Mar 2021 - Now)</span>
                         </span>
                         <span className="workplace_title">
-                            Full Stack Developer<br/><span className="co_name">TechPods</span> (Jan 2020 - Mar 2021)
+                            Full Stack Developer<br/><span className="co_name">TechPods</span> <span className="time">(Jan 2020 - Mar 2021)</span>
                         </span>
                         <span className="workplace_title">
-                            Blockchain Developer<br/><span className="co_name">WeiChain</span> (Jan 2019 - Jan 2020)
+                            Blockchain Developer<br/><span className="co_name">WeiChain</span> <span className="time">(Jan 2019 - Jan 2020)</span>
                         </span>
                     </div>
                 </div>
