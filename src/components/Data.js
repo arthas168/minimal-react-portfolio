@@ -22,7 +22,7 @@ export default {
     },
     {
       name: "Github",
-      url: "https://github.com/arthas168"
+      url: "https://github.com/axiomatic-aardvark"
     },
   ],
 };
