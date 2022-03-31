@@ -9,7 +9,7 @@ export default function Skills() {
                 <h1>Highly skilled with: </h1>
                 <div className="tag_list">
                     <Tag name="Rust" position={'is_first'}
-                         text="⚙️ I fell in love with Rust in late 2020. Everything about it - memory safety, speed, portability, efficiency and syntax is just simply amazing. I am using Rust at LimeChain to build a cutting edge unit testing framework, targeted specifically at testing WebAssembly modules. I also have a bunch of neat side projects with Rust on my GitHub page."/>
+                         text="⚙️ I fell in love with Rust in late 2020. Everything about it - memory safety, speed, portability, efficiency and syntax is just simply amazing. I used Rust to build a cutting edge unit testing framework for The Graph, targeted specifically at testing WebAssembly modules. I also have a bunch of neat side projects with Rust on my GitHub page."/>
                     <Tag name="Kotlin" text="👨‍💻 I used Kotlin (alongside Gradle and Quarkus) with a Postgres database while working at TechPods to build secure, reliable &
                     fast backend microservices."/>
                     <Tag data-tip="js" position={'is_last'} name="JavaScript" text="👨‍💻 I've been using JavaScript both for personal and professional projects ever since 2018.
