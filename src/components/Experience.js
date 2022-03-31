@@ -19,13 +19,13 @@ export default function Experience() {
                             Founder<br/><span className="co_name">Nixum</span> <span className="time">(Oct 2021 - Now)</span>
                         </span>
                         <span className="workplace_title">
-                            Rust Developer<br/><span className="co_name">LimeChain</span> <span className="time">(Mar 2021 - Jan 2022)</span>
+                            Rust Developer<br/><span className="co_name">The Graph</span> <span className="time">(Mar 2021 - Jan 2022)</span>
                         </span>
                         <span className="workplace_title">
-                            Full Stack Developer<br/><span className="co_name">TechPods</span> <span className="time">(Jan 2020 - Mar 2021)</span>
+                            Full Stack Developer<br/><span className="co_name">OVO Energy</span> <span className="time">(Jan 2020 - Mar 2021)</span>
                         </span>
                         <span className="workplace_title">
-                            Blockchain Developer<br/><span className="co_name">WeiChain</span> <span className="time">(Jan 2019 - Jan 2020)</span>
+                            Junior Developer (Blockchain)<br/><span className="co_name">WeiChain</span> <span className="time">(Jan 2019 - Jan 2020)</span>
                         </span>
                     </div>
                 </div>
