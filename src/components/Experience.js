@@ -6,10 +6,10 @@ export default function Experience() {
         <div className="experience">
             <Card title="🙋‍♂️ whoami" content={
                 <span className="whoami">
-                    Passionate blockchain advocate. Long history of organising and working with people.
+                    Passionate blockchain nerd since 2016. Full-time Advocate for The Graph protocol. Long history of organising and working with people.
                     My hobbies include magic tricks with playing cards, cardistry, cooking and hiking.
-                    I'm also really into electronics, embedded software (mostly on stm32 boards) and IoT. I'm a mentor at RoboClub.bg - a very big and active robotics club in Bulgaria.
-                    In my spare time I enjoy reading history books and working on side projects. Big supporter of open source software and an avid fan of Linux (currently on Manjaro).
+                    I'm also really into electronics and IoT, which is why I became a mentor at RoboClub.bg - a very large and active robotics club in Bulgaria.
+                    In my spare time I enjoy reading history books and working on side projects. Big supporter of open source software and an avid fan of Linux (currently in love with Manjaro).
                 </span>
             }/>
             <Card longMobile={true} title="👨‍💻 Work Experience" content={
